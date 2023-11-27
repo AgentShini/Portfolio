@@ -12,9 +12,9 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        {/* <Col md="4" className="footer-copywright">
+        <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col> */}
+        </Col>
       
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -51,6 +51,9 @@ function Footer() {
            
           </ul>
         </Col>
+        <Col md="4" className="footer-copywright">
+          <a href = "https://github.com/soumyajit4419/Portfolio">Original Repo</a>
+          </Col>
       </Row>
     </Container>
   );
